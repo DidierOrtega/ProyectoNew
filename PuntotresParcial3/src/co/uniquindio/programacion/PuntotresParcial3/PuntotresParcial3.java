@@ -90,6 +90,23 @@ public static boolean verificarRepetida (String palabra, String [][] matrizResul
 	}
 	return verificador;
 	}
+public static boolean verificarRepetidaDos (String palabra, String [][] matrizResultante)
+{  	int z=0;
+	boolean verificador2=false;
+	for(int i=0;i<matrizResultante.length;i++)
+	{	for(int j=0;j<matrizResultante[i].length;j++)
+	{
+	   		if (palabra==(matrizResultante[i][j]))
+	   		{  
+	   			z++;
+	   		}if(z>1)
+	   		{
+	   			verificador=true;
+	   		}	
+	   		}
+	}
+	return verificador2;
+	}
 	
 /**Esta funcion  nos devuele una lista de las palabras que tiene su palabra similar en matrizA, pero no debe estar repetida.
  * para esto recorremos matrizA, establecemos si cada palabra tiene su repetida en dicha matriz y si no se repite procedemos
