@@ -1,0 +1,6 @@
+Punto 2.
+EL programa calcula todo correctamente, hemos decidido que el tipo de dato a manejar es double y no otro debido a que resulta mas sencillo trabajar con este, ademas la persona puede ingresar el valor como 1lo podria ser 1.5 horas y el programa funcionaria de manera correcta.
+
+solo hemos utilizado dos variables en la funcion main que son horas y salario, en la funcion calcularSalario hemos creado una variable llama salario la cual es retornada con el valor del slario gando por el trabajador y esta misma es alamacenada en la variable salario de la funcion main.
+
+Adentro de la funcion calcularSalario hemos usado un if ya que es mas facil de usar en este caso, hemos comprobado dos casos donde las horas trabajadas fueran menore o iguales a 40 horas y en este caso las horas se multiplicarian por 200, y otro caso donde las horas sean mayores, en este ultimo caso le restamos a la variable horas el valor de 40 y asi obtenemos las horas extras trabajadas, estas se multiplican por 300 y el valor es sumado con el valor base que es 40 * 200 = 8000.
