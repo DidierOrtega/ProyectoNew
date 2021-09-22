@@ -1,4 +1,5 @@
 Punto 1
+Didier Ortega Rosero
 
 *EL programa calcula todo correctamente, hemos decidido que los tipos de datos a manejar sean double,String,Entero,
  para tener una relacion  adecuada en la asignacion de las varibables y no cause error a la hora de utlizarlas.
